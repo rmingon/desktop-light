@@ -4526,6 +4526,12 @@
 		(uuid "3049637c-0262-4f1a-bba1-819aff2ff10f")
 	)
 	(junction
+		(at 172.72 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "324a8d2d-0f37-4732-b277-097d500b85bc")
+	)
+	(junction
 		(at 53.34 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5216,6 +5222,12 @@
 		(uuid "f990389d-7649-450e-9c09-83bd40ff41ed")
 	)
 	(junction
+		(at 172.72 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa03c732-bc09-463c-8db7-bf38e123377c")
+	)
+	(junction
 		(at 377.19 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5612,6 +5624,16 @@
 			(type default)
 		)
 		(uuid "1647a79e-7e53-42b0-bebe-1813d5c9a258")
+	)
+	(wire
+		(pts
+			(xy 170.18 275.59) (xy 172.72 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1673a6bf-3e26-40bd-83de-0b4c87aab7ef")
 	)
 	(wire
 		(pts
@@ -6452,6 +6474,16 @@
 			(type default)
 		)
 		(uuid "41e57ee9-0a73-4ac4-b354-7c7975855f1d")
+	)
+	(wire
+		(pts
+			(xy 175.26 275.59) (xy 172.72 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ea7295-f6d9-422d-a8d5-85fb40de451c")
 	)
 	(wire
 		(pts
@@ -7695,6 +7727,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 275.59) (xy 172.72 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84995b7b-9c60-49f9-a9b9-b9ba1c38c637")
+	)
+	(wire
+		(pts
 			(xy 213.36 201.93) (xy 213.36 203.2)
 		)
 		(stroke
@@ -8185,6 +8227,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 267.97) (xy 172.72 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f99a1d-7373-4d43-a78b-f2636da92933")
+	)
+	(wire
+		(pts
 			(xy 20.32 194.31) (xy 22.86 194.31)
 		)
 		(stroke
@@ -8255,6 +8307,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 265.43) (xy 175.26 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e3c22f-319a-4720-95da-ff4c820cf762")
+	)
+	(wire
+		(pts
 			(xy 175.26 170.18) (xy 182.88 170.18)
 		)
 		(stroke
@@ -8262,6 +8324,16 @@
 			(type default)
 		)
 		(uuid "a6e43d58-de0b-4b97-8cb4-80e05d1a8aee")
+	)
+	(wire
+		(pts
+			(xy 152.4 270.51) (xy 175.26 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7cbe686-4e97-4d1a-a936-8468571ef64c")
 	)
 	(wire
 		(pts
@@ -9635,6 +9707,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 278.13) (xy 175.26 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86ec9c6-d50d-4a99-aca4-6442fc78b0cd")
+	)
+	(wire
+		(pts
 			(xy 213.36 203.2) (xy 231.14 203.2)
 		)
 		(stroke
@@ -9742,6 +9824,16 @@
 			(type default)
 		)
 		(uuid "ed75470f-0d61-4795-90fc-fcc461d9c8b6")
+	)
+	(wire
+		(pts
+			(xy 170.18 265.43) (xy 172.72 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc680d9-8bb7-4792-b808-21e14a5b7877")
 	)
 	(polyline
 		(pts
@@ -9892,6 +9984,16 @@
 			(type default)
 		)
 		(uuid "f5009845-3a39-445e-9f64-094f76443732")
+	)
+	(wire
+		(pts
+			(xy 172.72 267.97) (xy 172.72 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c56f7e-2917-4467-96c4-380e092ad3d8")
 	)
 	(polyline
 		(pts
@@ -10186,28 +10288,6 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 312.42 203.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2cfde94d-15bf-44c2-a389-aefa2a963315")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 306.3783 203.1206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX-PROG"
 		(shape input)
 		(at 351.79 80.01 0)
@@ -10309,28 +10389,6 @@
 		(uuid "5baedd26-6664-41da-a7f7-59f758c6abbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 358.3433 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 336.55 237.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77ce9df2-bc80-4409-81e1-8774ddde6a74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.8336 237.4106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,6 +12190,73 @@
 			(project "desktop-light"
 				(path "/00bcc3d0-a5f1-4bc5-9373-ba084fa86ac8"
 					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 312.42 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30e1b366-db00-4ba3-9f2d-7ee8abd3694e")
+		(property "Reference" "#PWR031"
+			(at 316.23 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 308.61 203.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80257893-41dc-43f7-ba1f-c401d93e077c")
+		)
+		(instances
+			(project "desktop-light"
+				(path "/00bcc3d0-a5f1-4bc5-9373-ba084fa86ac8"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14460,6 +14585,87 @@
 			(project "desktop-light"
 				(path "/00bcc3d0-a5f1-4bc5-9373-ba084fa86ac8"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 180.34 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7799fe77-aab4-4b9f-a179-d042dc65d0d8")
+		(property "Reference" "J5"
+			(at 179.07 259.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 174.244 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
+			(at 180.34 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f0e2524b-ca15-4517-86cc-f8e6f7130900")
+		)
+		(pin "2"
+			(uuid "b1620207-be78-4c0e-b0bc-cc4f387b72d3")
+		)
+		(pin "1"
+			(uuid "2b7b8154-3650-4c21-8ac0-10e26339bd45")
+		)
+		(pin "6"
+			(uuid "acd9b78e-10fc-4703-a0b8-7b17beaacf5c")
+		)
+		(pin "3"
+			(uuid "4a09bea3-11fe-4dd3-ad64-84f52483989a")
+		)
+		(pin "4"
+			(uuid "c22367b3-70ed-481b-bcb4-3dcb4b73c539")
+		)
+		(instances
+			(project "desktop-light"
+				(path "/00bcc3d0-a5f1-4bc5-9373-ba084fa86ac8"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -18107,6 +18313,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 170.18 275.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0f1ccd2-55d6-4191-bf1b-646031f2e836")
+		(property "Reference" "#PWR034"
+			(at 163.83 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 275.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60eb1a62-3d5c-490b-a026-9533f831a5a3")
+		)
+		(instances
+			(project "desktop-light"
+				(path "/00bcc3d0-a5f1-4bc5-9373-ba084fa86ac8"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 311.15 158.75 0)
 		(unit 1)
@@ -19254,6 +19527,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 336.55 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8612ef9-53ed-40b8-bf6d-0da602be4c09")
+		(property "Reference" "#PWR032"
+			(at 342.9 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 237.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb4c9847-740f-4c3f-a456-faefd8424b7a")
+		)
+		(instances
+			(project "desktop-light"
+				(path "/00bcc3d0-a5f1-4bc5-9373-ba084fa86ac8"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 328.93 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19684,6 +20024,73 @@
 			(project "desktop-light"
 				(path "/00bcc3d0-a5f1-4bc5-9373-ba084fa86ac8"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 170.18 265.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd8a0fae-c1ad-442b-85f8-597bdbd3d86e")
+		(property "Reference" "#PWR033"
+			(at 173.99 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 166.37 265.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 170.18 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6a2c6d9-64fb-4488-9e41-22f2e8fee858")
+		)
+		(instances
+			(project "desktop-light"
+				(path "/00bcc3d0-a5f1-4bc5-9373-ba084fa86ac8"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
