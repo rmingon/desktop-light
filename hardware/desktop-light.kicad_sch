@@ -10728,6 +10728,28 @@
 			)
 		)
 	)
+	(global_label "DIN"
+		(shape input)
+		(at 351.79 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc3bc99c-87df-41cd-8b43-bc4fd082d9b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.9805 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 275.59 49.53 0)
